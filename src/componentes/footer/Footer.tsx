@@ -10,7 +10,7 @@ export function Footer(){
       </div>
      <ul className='Lista'>
     <li>
-        <h3>Historico</h3>
+        <h3>Historic</h3>
     </li>
     <li>
         <Link texto='Ifms'/>
