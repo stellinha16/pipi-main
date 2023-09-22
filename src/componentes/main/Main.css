@@ -1,0 +1,42 @@
+.content-main{
+    display: flex;
+    gap: 15px;
+    padding: 15px 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+  .eu-content img {
+    max-width: 35vh;
+    height: fixed;
+    box-shadow: 2vh 2vh 22px rgba(29, 30, 116, 0.2); 
+  }
+  
+  .text-eu {
+    margin-left: 30px;
+    color: #140e33; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  
+  .text-eu p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #4d448a; 
+  }
+.campo_pesquisa{
+    padding: 15px 100px;
+}
+.botao_pesquisa{
+    height: 30px;
+    border: 1px solid #060824;
+    border-radius: 5px;
+
+}
+.botao_pesquisa:focus {
+    outline: 0.25px solid rgb(223, 35, 176);  
+   }
+.botao_pesquisa.visited {
+    outline: 1px solid rgb(211, 44, 197);   
+}
